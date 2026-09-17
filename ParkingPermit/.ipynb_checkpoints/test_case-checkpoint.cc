@@ -116,9 +116,11 @@ TEST_F(ParkingListTest, getLongestHeldEmptyList) {
 // don't write anything here because we want the list to be empty
 
     // WHEN -- run the rewards function
+    string result = list->runRewards();
 
 
     // THEN -- return an empty string 
+    EXPECT_EQ(result, "");
 
 }
 

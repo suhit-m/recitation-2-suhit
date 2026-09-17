@@ -82,6 +82,8 @@ string PermitList::runRewards()
    // //TO DO STEP 2 REWARDS add the parameter in the following statement
     bool found = getLongestHeldPermit(longestHeld);  
 
+    if (longestHeld == nullptr) return "";
+
 
     // cout << longestHeld->getDaysHeld() << endl;
     cout << "found " << found << " " << longestHeld->getStudentName() << endl; // The segmentation fault is here

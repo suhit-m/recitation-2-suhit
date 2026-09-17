@@ -110,15 +110,19 @@ TEST_F(ParkingListTest, getLongestFirstPermit) {
 //          valgrind --leak-check=full --track-origins=yes ./
 // write here about what the problem was and how you fixed it
 
+// The problem was that if there is no permits in the list, then longestHeld remains a nullptr. runRewards() then attempts to call a ParkingPermit method on it which causes a segmentation fault.
+
 
 TEST_F(ParkingListTest, getLongestHeldEmptyList) {
     // GIVEN -- an empty permit list
 // don't write anything here because we want the list to be empty
 
     // WHEN -- run the rewards function
+    string result = list->runRewards();
 
 
     // THEN -- return an empty string 
+    EXPECT_EQ(result, "");
 
 }
 
