@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -Wall -g CMakeFiles/mytests.dir/test_case.cc.o CMakeFiles/mytests.dir/parkingPermit.cpp.o CMakeFiles/mytests.dir/permitList.cpp.o -o mytests  -lgtest_main /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread 

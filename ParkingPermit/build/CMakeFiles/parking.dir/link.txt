@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -Wall -g CMakeFiles/parking.dir/main.cpp.o CMakeFiles/parking.dir/parkingPermit.cpp.o CMakeFiles/parking.dir/permitList.cpp.o -o parking 

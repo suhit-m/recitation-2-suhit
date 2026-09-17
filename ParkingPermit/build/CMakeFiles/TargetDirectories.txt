@@ -1,0 +1,5 @@
+/home/jovyan/Data Structures/recitation-2-suhit/ParkingPermit/build/CMakeFiles/mytests.dir
+/home/jovyan/Data Structures/recitation-2-suhit/ParkingPermit/build/CMakeFiles/parking.dir
+/home/jovyan/Data Structures/recitation-2-suhit/ParkingPermit/build/CMakeFiles/test.dir
+/home/jovyan/Data Structures/recitation-2-suhit/ParkingPermit/build/CMakeFiles/edit_cache.dir
+/home/jovyan/Data Structures/recitation-2-suhit/ParkingPermit/build/CMakeFiles/rebuild_cache.dir
